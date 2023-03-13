@@ -1,14 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Button } from "@mui/material";
+import ReactRouterComponent from "./router";
 
 function App() {
   return (
-    <div className="App">
-      <Button color="primary" variant="contained">
-        Contained
-      </Button>
-    </div>
+    // <div className="App">
+    <ReactRouterComponent />
+    // </div>
   );
 }
 
