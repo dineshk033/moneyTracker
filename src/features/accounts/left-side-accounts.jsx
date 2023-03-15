@@ -1,4 +1,4 @@
-import { Box, Button, Paper, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import ControlPointIcon from "@mui/icons-material/ControlPoint";
 import ListBankAccounts from "./list-bank-accounts";
 import ListCreditCardAccounts from "./list-credit-card-accounts";
