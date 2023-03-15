@@ -13,7 +13,7 @@ const AccountsPage = () => {
         <LeftSideAccounts />
       </Grid>
       <Grid item xs={8} md={8} lg={9}>
-        <div>Bank list here</div>
+        <div>Bank list here updated</div>
       </Grid>
     </Grid>
   );
