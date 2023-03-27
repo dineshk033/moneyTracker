@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import CardHeader from "@mui/material/CardHeader";
 import DropdownComp from "../input/dropdown";
 const option = {
+  height: "100%",
   xAxis: {
     type: "category",
     data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Suns"],
@@ -64,18 +65,22 @@ const option = {
 
 const LineCharts = () => {
   return (
-    <Card variant="outlined" sx={{ boxSizing: "border-box", height: "100%" }}>
+    <Card variant="outlined" sx={{ boxSizing: "border-box", height: "275px" }}>
       <CardHeader
         subheader={
-          <Box>
-            Income & Expenses
+          <Box
+            display="flex"
+            justifyContent="space-between"
+            alignItems="center"
+          >
+            Earnings and Expenditure
             <DropdownComp />
           </Box>
         }
       />
       <ReactEcharts
         option={option}
-        style={{ height: "calc(100% - 60px)" }}
+        style={{ height: "100%", marginTop: "-35px" }}
       ></ReactEcharts>
     </Card>
   );

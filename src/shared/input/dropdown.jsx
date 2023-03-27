@@ -25,7 +25,7 @@ const StyledSelect = styled(Select)({
     paddingBottom: "4.5px",
   },
 });
-export default function SelectSmall() {
+export default function DropDownComp() {
   const [age, setAge] = React.useState(10);
 
   const handleChange = (event) => {
