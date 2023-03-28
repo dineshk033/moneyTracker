@@ -22,13 +22,20 @@ const LeftSideAccounts = () => {
       >
         Select accounts to see details
       </Typography> */}
-      <Box width="100%" bgcolor="primary.main" mt={3} p={1} borderRadius={1}>
+      <Box
+        width="100%"
+        sx={{ boxSizing: "border-box" }}
+        bgcolor="primary.main"
+        mt={3}
+        p={1}
+        borderRadius={1}
+      >
         <Typography variant="subtitle1" fontWeight="bold" color="white">
           Select Bank Account
         </Typography>
       </Box>
       <ListBankAccounts />
-      <Box width="100%" bgcolor="primary.main" mt={3} p={1} borderRadius={1}>
+      <Box width="100%"  sx={{ boxSizing: "border-box" }} bgcolor="primary.main" mt={3} p={1} borderRadius={1}>
         <Typography variant="subtitle1" fontWeight="bold" color="white">
           Select Credit Card
         </Typography>
